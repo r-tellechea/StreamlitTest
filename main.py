@@ -9,11 +9,11 @@ def cook_breakfast():
 	"""This function comes from the documentation.
 	https://docs.streamlit.io/library/api-reference/status/st.toast
 	"""
-	msg = st.toast('Gathering ingredients...')
+	st.toast('Gathering ingredients...')
 	time.sleep(1)
-	msg.toast('Cooking...')
+	st.toast('Cooking...')
 	time.sleep(1)
-	msg.toast('Ready!', icon = "🥞")
+	st.toast('Ready!', icon = "🥞")
 
 column_1, column_2 = st.columns(2)
 
