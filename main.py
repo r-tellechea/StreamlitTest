@@ -25,7 +25,7 @@ with column_1:
 
 with column_2:
 	st.button(
-		label='',
+		label='Click me for cook',
 		key='Second Button',
 		on_click=cook_breakfast
 	)
