@@ -1,5 +1,5 @@
 import streamlit as st
-import time
+from time import sleep
 
 def click_function():
 	st.balloons()
@@ -10,9 +10,9 @@ def cook_breakfast():
 	https://docs.streamlit.io/library/api-reference/status/st.toast
 	"""
 	st.toast('Gathering ingredients...')
-	time.sleep(1)
+	sleep(1)
 	st.toast('Cooking...')
-	time.sleep(1)
+	sleep(1)
 	st.toast('Ready!', icon = "🥞")
 
 column_1, column_2 = st.columns(2)
