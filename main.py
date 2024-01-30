@@ -15,6 +15,11 @@ def cook_breakfast():
 	time.sleep(1)
 	st.toast('Ready!', icon = "🥞")
 
+
+st.title('First Streamlit Cloud App')
+
+st.write('This was just a test to test how streamlit cloud works. It\'s really fast deploying changes.' )
+
 column_1, column_2 = st.columns(2)
 
 with column_1:
