@@ -1,4 +1,5 @@
 import streamlit as st
+import time
 
 def click_function():
 	st.balloons()
